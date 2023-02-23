@@ -6,11 +6,14 @@
 
 
 footer {
+    width: 100%;
     background-color: #0081C9;
     color: #FFC93C;
     font-size: 1em;
     text-align: center;
     clear: both;
+    position: absolute;
+    bottom: 0;
 }
 
 .container_footer {
