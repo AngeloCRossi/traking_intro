@@ -1,9 +1,22 @@
 
 
+#mainScreen {
+    display: flex;
+}
 
+#leftSide {
+    width: 50%;
+}
 
+#rigthSide {
+    width: 50%;
+}
 
-
+#rigthMenu {
+    height: 100%;
+    background-color: hsl(207, 33%, 95%);
+    border-radius: 0 0 0 5em;
+}
 
 footer {
     width: 100%;
