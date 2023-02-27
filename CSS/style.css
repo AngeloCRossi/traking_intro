@@ -1,4 +1,5 @@
-
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 #mainScreen {
     display: flex;
@@ -14,10 +15,19 @@
     margin-top: 5em;
     margin-bottom: 2em;
     text-transform: uppercase;
+    display: block;
 }
 
 #strongNew {
+    font-size: 0.8em;
+    height: 1em;
     font-weight: bolder;
+    background-color: black;
+    color: white;
+    width: 3rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.75rem;
 }
 
 .powerInsights{
@@ -30,7 +40,7 @@
 }
 
 .protectTeams {
-   margin-bottom: 3em; 
+   margin-bottom: 1em; 
 }
 
 #schedule {
@@ -43,6 +53,7 @@ li ::before{
 
 #rigthSide {
     width: 50%;
+    display: flow-root;
 }
 
 #rigthMenu {
@@ -53,14 +64,22 @@ li ::before{
 }
 
 #rigthNav {
-    margin: 5em 2em 2em 10em;
-    font-size: 1.5em;
+    margin: 5em 2em 2em 15em;
+    font-size: 1em;
     display: inline-flex;
 }
 
 .navItens {
     margin-right: 1em;
     text-transform: uppercase;
+}
+
+.navItens.Login {
+    margin-left: 1.5em;
+}
+
+#imgDevices {
+    margin-top: -11rem;
 }
 
 footer {
@@ -79,11 +98,7 @@ footer {
     align-items: center;
 }
 
-.logo_contato {
-    margin-left: 1em;
-}
+
 @media screen and (max-width: 480px) {
-    .logo_contato {
-        transform: scale(0.5);
-    }
+
 }
